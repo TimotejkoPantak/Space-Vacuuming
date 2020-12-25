@@ -25,16 +25,16 @@
         </Label>
 
         <Button
+            WidthRequest="200"
+            Padding="0,250,0,0"
             Grid.Row="2"
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"
             Text="Start"
             TextColor="Yellow"
+            FontAttributes="Bold"
             FontSize="40"
             BackgroundColor="Transparent"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"
-            Margin="0,200,0,0"
-            Clicked="Button_Clicked"
             />
-
     </Grid>
 </ContentPage>
